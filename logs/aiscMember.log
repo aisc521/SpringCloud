@@ -1,0 +1,16 @@
+2020-05-12 16:41:23.362  INFO 17980 --- [main] c.aisc.aiscmember.AiscMemberApplication  : Starting AiscMemberApplication on LAPTOP-LM4CBMP2 with PID 17980 (E:\studyCode\SpringCloud\aisc-member\target\classes started by aisc in E:\studyCode\SpringCloud)
+2020-05-12 16:41:23.365  INFO 17980 --- [main] c.aisc.aiscmember.AiscMemberApplication  : No active profile set, falling back to default profiles: default
+2020-05-12 16:41:23.999  WARN 17980 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.aisc.aiscmember]' package. Please check your configuration.
+2020-05-12 16:41:24.050  INFO 17980 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-12 16:41:24.053  INFO 17980 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-05-12 16:41:24.077  INFO 17980 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2020-05-12 16:41:24.429  INFO 17980 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$593dc013] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-12 16:41:24.734  INFO 17980 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-05-12 16:41:24.764  INFO 17980 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-05-12 16:41:24.764  INFO 17980 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.24]
+2020-05-12 16:41:24.895  INFO 17980 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-05-12 16:41:24.895  INFO 17980 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1485 ms
+2020-05-12 16:41:25.198  INFO 17980 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-12 16:41:25.904  INFO 17980 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-12 16:41:25.907  INFO 17980 --- [main] c.aisc.aiscmember.AiscMemberApplication  : Started AiscMemberApplication in 2.974 seconds (JVM running for 5.808)
+2020-05-12 16:41:29.153  INFO 17980 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

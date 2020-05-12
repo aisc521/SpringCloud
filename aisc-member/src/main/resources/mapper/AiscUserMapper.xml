@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.aisc.aiscmember.mapper.AiscUserMapper" >
+  <resultMap id="BaseResultMap" type="com.aisc.aiscmember.pojo.AiscUser" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="name" property="name" jdbcType="VARCHAR" />
+    <result column="sex" property="sex" jdbcType="INTEGER" />
+    <result column="age" property="age" jdbcType="INTEGER" />
+    <result column="email" property="email" jdbcType="VARCHAR" />
+    <result column="mobile" property="mobile" jdbcType="VARCHAR" />
+    <result column="id_card" property="idCard" jdbcType="VARCHAR" />
+    <result column="image" property="image" jdbcType="VARCHAR" />
+  </resultMap>
+
+  <select id="getUserInfoById" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+    select * from aisc_user where id = #{userId}
+  </select>
+</mapper>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="aisc-member:war">
+    <output-path>$PROJECT_DIR$/aisc-member/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>aisc-member</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="aisc-member-0.0.1.war">
+      <element id="artifact" artifact-name="aisc-member:war exploded" />
+    </root>
+  </artifact>
+</component>
