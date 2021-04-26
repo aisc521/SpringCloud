@@ -40,7 +40,7 @@
         <jwt-version>0.7.0</jwt-version>
         <apache.ant.version>1.10.7</apache.ant.version>
         <websocket-vsesion>2.1.7.RELEASE</websocket-vsesion>
-        <commons-io.version>2.6</commons-io.version>
+        <commons-io.version>2.7</commons-io.version>
         <fastdfs-client-version>1.27.2</fastdfs-client-version>
         <quartz.version>2.1.7.RELEASE</quartz.version>
         <hutool.version>5.0.6</hutool.version>
